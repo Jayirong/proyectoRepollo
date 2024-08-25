@@ -19,7 +19,7 @@ variables:
   vmName2: 'repolloVM2'
   vmSize: 'Standard_B1s'  # SKU disponible en eastus2
   adminUsername: 'azureuser'
-  adminPassword: 'Rep0110'  # Contraseña en texto plano (ajustar según necesidad)
+  adminPassword: 'pr0yect0Rep0110'  # Contraseña en texto plano (ajustar según necesidad)
 
   # Variables de la imagen
   imagePublisher: 'Canonical'
