@@ -86,5 +86,5 @@ steps:
       echo "Apache instalado y página de bienvenida configurada en VM 1."
       echo "Instalando Apache y configurando la página de prueba en VM 2..."
       az vm run-command invoke --resource-group $(resourceGroupName) --name $(vmName2) --command-id RunShellScript --scripts "sudo apt update && sudo apt install -y apache2"
-      az vm run-command invoke --resource-group $(resourceGroupName) --name $(vmName2) --command-id RunShellScript --scripts "echo 'Bienvenido a Repollo 1, Azul' | sudo tee /var/www/html/index.html"
+      az vm run-command invoke --resource-group $(resourceGroupName) --name $(vmName2) --command-id RunShellScript --scripts "echo 'Bienvenido a Repollo 2, Rojo' | sudo tee /var/www/html/index.html"
       echo "Apache instalado y página de bienvenida configurada en VM 2."
